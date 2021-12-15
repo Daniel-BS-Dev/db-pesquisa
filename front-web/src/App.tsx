@@ -1,14 +1,9 @@
-import Header from './components/Header';
+import DRoutes from './Route';
 import './App.css';
-import Home from './components/pages/home';
 
 function App() {
   return (
-    <> 
-     <Header />
-     <Home />
-    </>
-    
+     <DRoutes />
   );
 }
 
