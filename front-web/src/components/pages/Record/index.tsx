@@ -6,9 +6,11 @@
 // then é o returno da minha requisição quando ela e feita com sucesso 
 // type é um tipo que eu crio com as informações que preciso retornar. ir para type
 // com o tipo criado eu posso cria uma estado
+// cria a paginação. Criando uma nova pasta pagination
 import {useEffect, useState} from 'react';
 import { RecordsResponse } from './type';
 import { formatDate } from './FormatMoment';
+import Pagination from './Pagination';
 import axios from 'axios';
 import './styles.css';
 
@@ -16,11 +18,12 @@ const BASE_URL = 'https://dspesquisa-daniel.herokuapp.com'
 
 const Record = () => {
      const [recordResponse, setRecordResponse] = useState<RecordsResponse>();
-     console.log(recordResponse);
+     const [activePage, setActivePage] = useState(0);
+
 useEffect(() => {
-  axios.get(`${BASE_URL}/records?linePerPage=12`)
+  axios.get(`${BASE_URL}/records?linePerPage=12&page=${activePage}`)
   .then(response => setRecordResponse(response.data))
-}, []);
+}, [activePage]); // todas as vezes que o activePage mudar a pagina tbm muda, para funcionar eu tenho que fazer isso page=${activePage} como esta acima
 
     return (
         <div className="page-container">
@@ -48,6 +51,11 @@ useEffect(() => {
                ))}
                </tbody>
             </table>
+            <Pagination
+               activePage={activePage}
+               goToPage={(index: number) => setActivePage(index)}
+               totalPages={recordResponse?.totalPages}
+            />
         </div>
     );
 }
