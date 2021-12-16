@@ -1,17 +1,16 @@
-import {BrowserRouter as Routes, Route} from "react-router-dom";
 import Record from "./components/pages/Record";
 import Home from "./components/pages/home";
 import Header from "./components/Header";
-
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 const DRoutes = () => (
- <Routes>
+ <Router>
     <Header/>
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/record' element={<Record />} />
     </Routes>
-  </Routes>
+  </Router>
 );
 
 export default DRoutes;
