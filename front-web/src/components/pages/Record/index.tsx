@@ -7,13 +7,14 @@
 // type é um tipo que eu crio com as informações que preciso retornar. ir para type
 // com o tipo criado eu posso cria uma estado
 // cria a paginação. Criando uma nova pasta pagination
+import Filter from '../../../components/Filter';
+import { formatDate } from './FormatMoment';
 import {useEffect, useState} from 'react';
 import { RecordsResponse } from './type';
-import { formatDate } from './FormatMoment';
-import { Link } from 'react-router-dom';
 import Pagination from './Pagination';
 import axios from 'axios';
 import './styles.css';
+
 
 const BASE_URL = 'https://dspesquisa-daniel.herokuapp.com'
 
@@ -28,13 +29,7 @@ useEffect(() => {
 
     return (
         <div className="page-container">
-        <div className="filters-container records-actions">
-         <Link to="/charts">
-           <button className="action-filters">
-              VER GRÁFICOS
-           </button>
-         </Link>
-        </div>
+            <Filter link="/charts" linkText="VER GRÁFIGO" />
             <table className="records-table" cellPadding="0" cellSpacing="0">
                <thead>
                    <tr>

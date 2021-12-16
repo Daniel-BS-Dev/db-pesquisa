@@ -1,7 +1,9 @@
-import Record from "./components/pages/Record";
-import Home from "./components/pages/home";
-import Header from "./components/Header";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Record from "./components/pages/Record";
+import Charts from "./components/pages/Charts";
+import Home from "./components/pages/Home";
+import Header from "./components/Header";
+
 
 const DRoutes = () => (
  <Router>
@@ -9,6 +11,7 @@ const DRoutes = () => (
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/record' element={<Record />} />
+      <Route path='/charts' element={<Charts />} />
     </Routes>
   </Router>
 );
