@@ -29,12 +29,13 @@ foi feito um projeto de pesquisa de games, com a feature especial: trabalhar com
    - VsCode
    - apexcharts
    - Netlify
- 
    
  # Tudo que Aprendi
  
-   Com o projeto dspesquisa eu consegui aprender como criar entidades usando a linguagem Java, e a ferramenta de desenvolvimento Spring Boot, baseado em um modelo conceitual e     levando em consideração o padrão camadas MVC, para inserir dados as entidades foi utilizado o Postgres, para deploy o Heroku, para testes do backend foi utilizado o Postman,
-  no frontend foi usada a biblioteca React, e a ferramenta VsCode para o desenvolvimento onde foi feita a interação do backend com o frontend, aprendi a usar biblioteca do apexcharts para criação dos graficos e por fim não menos importante a hospedagem do site foi feita usando o Netlify
+   Com o projeto dspesquisa eu consegui aprender como criar entidades usando a linguagem Java, e a ferramenta de desenvolvimento Spring Boot, baseado em um modelo conceitual e      levando em consideração o padrão camadas MVC, para inserir dados as entidades foi utilizado o Postgres, para deploy o Heroku, para testes do backend foi utilizado o Postman,
+   no frontend foi usada a biblioteca React, e a ferramenta VsCode para o desenvolvimento onde foi feita a interação do backend com o frontend, aprendi a usar biblioteca do      apexcharts para criação dos graficos e por fim não menos importante a hospedagem do site foi feita usando o Netlify
+   
+ #### Link do projeto: https://dbpesquisa.netlify.app
 
 
 
