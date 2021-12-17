@@ -23,8 +23,11 @@ foi feito um projeto de pesquisa de games, com a feature especial: trabalhar com
    - Postman
    
 ### Frontend
-   - React
-   - VsCode
+   - HTML/ Css / TypeScript
+   - Reactjs
+   - Vs Code
+   - yarn
+   - nodejs
    - apexcharts
    
 
