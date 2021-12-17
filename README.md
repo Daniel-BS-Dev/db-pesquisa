@@ -16,19 +16,22 @@ foi feito um projeto de pesquisa de games, com a feature especial: trabalhar com
 ![records](https://user-images.githubusercontent.com/81425846/146616313-4063b769-c1ea-424e-aad1-aa7fec97beea.png)
 ![charts](https://user-images.githubusercontent.com/81425846/146616317-0d5a5b67-8410-4f72-a216-82ad8c979573.png)
    
-# Tecnologias Utilizadas Backend
+# Tecnologias Utilizadas 
+### Backend
    - Java 11
    - Spring Boot
    - Postman
-   - Heroku
-   - Postgress
    
-   
-# Tecnologias Utilizadas Frontend
+### Frontend
    - React
    - VsCode
    - apexcharts
    - Netlify
+
+## Implantação produção
+   - Backend: Heroku
+   - Frontend: Netlify
+   - Banco de dados: Postgresql
    
  # Tudo que Aprendi
  
