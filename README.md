@@ -26,9 +26,9 @@ foi feito um projeto de pesquisa de games, com a feature especial: trabalhar com
    - React
    - VsCode
    - apexcharts
-   - Netlify
+   
 
-## Implantação produção
+### Implantação produção
    - Backend: Heroku
    - Frontend: Netlify
    - Banco de dados: Postgresql
