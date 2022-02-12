@@ -11,9 +11,11 @@ foi feito um projeto de pesquisa de games, com a feature especial: trabalhar com
 ![games](https://user-images.githubusercontent.com/81425846/146615111-9ccfba72-0a91-4b48-bb55-ac62f7711795.png)
 
 # Projeto na Nuvem
-
+## Home
 ![home](https://user-images.githubusercontent.com/81425846/146616437-10f981bb-cd73-44f1-a5ce-bbe35e6310b7.png)
+## tabela 
 ![records](https://user-images.githubusercontent.com/81425846/146616313-4063b769-c1ea-424e-aad1-aa7fec97beea.png)
+## Grafico
 ![charts](https://user-images.githubusercontent.com/81425846/146616317-0d5a5b67-8410-4f72-a216-82ad8c979573.png)
    
 # Tecnologias Utilizadas 
